@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ar">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>بيت التحفيات — المنيو</title>
+
+  <!-- Fonts (luxury + Arabic readable) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Marcellus&family=Noto+Kufi+Arabic:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body dir="rtl" data-page="index">
+  <div class="pageFade on" aria-hidden="true"></div>
+
+  <!-- Glass Topbar -->
+  <header class="topbar" role="banner">
+    <div class="topbar__inner">
+      <div class="topbar__left">
+        <button class="pillBtn" id="langBtn" type="button">AR / EN</button>
+      </div>
+
+      <div class="topbar__mid">
+        <a class="pillBtn pillLink" href="index.html" id="siteBtn">website</a>
+      </div>
+
+      <div class="topbar__right">
+        <a class="brand" href="index.html" aria-label="بيت التحفيات">
+          <img src="logo.png" alt="">
+          <span>
+            <strong>بيت التحفيات</strong>
+            <em>House of Antiques</em>
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO edge-to-edge -->
+  <section class="hero" aria-label="Cover">
+  <img id="heroImg" alt="">
+</section>
+
+
+  <main class="wrap">
+    <section class="bigTitle">
+      <h1 class="font-display" data-i18n="homeTitle">بيت التحفيات</h1>
+      <p class="font-body" data-i18n="homeSub">منيو متحفي — تجربة رقمية بطابع مطبوع فاخر</p>
+    </section>
+
+    <!-- Reference-like cards -->
+    <section class="cardsGrid" id="cardsGrid" aria-label="Menu Categories"></section>
+
+    <div class="footerNote">© House of Antiques — Menu</div>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
